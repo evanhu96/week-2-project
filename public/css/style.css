@@ -1,0 +1,25 @@
+header{
+    background-color: brown;
+    height: 200px;
+}
+h2{
+    display: flex;
+    background-color: brown;
+    height:80px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+#user{
+    text-align: right;
+}
+.row{
+    border: 3px brown solid;
+}
+
+nav{
+    position: absolute;
+    text-align: left;
+    margin-top: -180px;
+    justify-content: space-between;
+}
