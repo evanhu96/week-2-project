@@ -1,3 +1,71 @@
-*{
+img{
+    width: 150px;
+    height:150px;
+}
+p{
+    position: relative;
+}
+.headerLinks{
+
+    text-decoration: underline;
+    color: lightblue;
+
+}
+.sectionshell{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.sectionLabel{
+    display: inline-block;
+    color: aquamarine;
+    width:200px;
+    border-right:5px solid blue;
+    margin-right: 30px;
+}
+.sectionText{
+    display: inline-block;
+    color:darkblue
+}
+#topOfPage{
+    position: relative;
+    display: flex;
+    background-color: #00008b;
+    justify-content: space-between;
+}
+#headerLinkList{
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+#name{
+    display:flex;
+    justify-content: center;
+    height:50px;
+    width: 200px;
     background-color: aqua;
+}
+
+#banner{
+    position: relative;
+    height:170px;
+    background-color: rebeccapurple;
+}
+#header{
+    display:flex;
+    justify-content: center;
+    height: 50px;
+    width: 300px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+#projects{
+    display: flex;
+}
+#displayLinks{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
 }
